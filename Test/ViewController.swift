@@ -12,21 +12,31 @@ class ViewController: UIViewController {
 
      var words: [String] = ["apple", "grape", "peach"]
     
+    var image: [String] = ["apple.png", "grape.png", "peach.png"]
+    
     var position: Int = 0
     
+    @IBOutlet weak var photo: UIImageView!
     
     @IBAction func label1() {
          print(words[0])
         wordText.text = words[0]
+        
+        photo.image = UIImage(named: image[0])
         
         
     }
     @IBAction func label2() {
         wordText.text = words[1]
         
+        photo.image = UIImage(named: image[1])
+        
     }
     @IBAction func label3() {
         wordText.text = words[2]
+        
+        photo.image = UIImage(named: image[2])
+        
     }
     
     @IBAction func leftButton() {
@@ -35,6 +45,8 @@ class ViewController: UIViewController {
             position = 0
         }
         wordText.text = words[position]
+        
+        photo.image = UIImage(named: image[position])
   
     }
         
@@ -45,11 +57,12 @@ class ViewController: UIViewController {
             position = 2
         }
         wordText.text = words[position]
+        
+        photo.image = UIImage(named: image[position])
     }
 
     @IBOutlet weak var wordText: UILabel!
     
-    //array の書き方　場所
     
     
     override func viewDidLoad() {

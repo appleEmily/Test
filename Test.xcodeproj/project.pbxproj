@@ -14,6 +14,9 @@
 		A1AB50162261B9A900AA3B6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1AB50142261B9A900AA3B6A /* LaunchScreen.storyboard */; };
 		A1AB50212261B9AA00AA3B6A /* TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AB50202261B9AA00AA3B6A /* TestTests.swift */; };
 		A1AB502C2261B9AA00AA3B6A /* TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AB502B2261B9AA00AA3B6A /* TestUITests.swift */; };
+		A1AB503D2264CA7300AA3B6A /* grape.png in Resources */ = {isa = PBXBuildFile; fileRef = A1AB503A2264CA7300AA3B6A /* grape.png */; };
+		A1AB503E2264CA7300AA3B6A /* peach.png in Resources */ = {isa = PBXBuildFile; fileRef = A1AB503B2264CA7300AA3B6A /* peach.png */; };
+		A1AB50402264CA8F00AA3B6A /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = A1AB503F2264CA8F00AA3B6A /* apple.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		A1AB50272261B9AA00AA3B6A /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1AB502B2261B9AA00AA3B6A /* TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUITests.swift; sourceTree = "<group>"; };
 		A1AB502D2261B9AA00AA3B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1AB503A2264CA7300AA3B6A /* grape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grape.png; sourceTree = "<group>"; };
+		A1AB503B2264CA7300AA3B6A /* peach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peach.png; sourceTree = "<group>"; };
+		A1AB503F2264CA8F00AA3B6A /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				A1AB50122261B9A900AA3B6A /* Assets.xcassets */,
 				A1AB50142261B9A900AA3B6A /* LaunchScreen.storyboard */,
 				A1AB50172261B9A900AA3B6A /* Info.plist */,
+				A1AB503A2264CA7300AA3B6A /* grape.png */,
+				A1AB503B2264CA7300AA3B6A /* peach.png */,
+				A1AB503F2264CA8F00AA3B6A /* apple.png */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -229,9 +238,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1AB503D2264CA7300AA3B6A /* grape.png in Resources */,
 				A1AB50162261B9A900AA3B6A /* LaunchScreen.storyboard in Resources */,
 				A1AB50132261B9A900AA3B6A /* Assets.xcassets in Resources */,
 				A1AB50112261B9A600AA3B6A /* Main.storyboard in Resources */,
+				A1AB50402264CA8F00AA3B6A /* apple.png in Resources */,
+				A1AB503E2264CA7300AA3B6A /* peach.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
